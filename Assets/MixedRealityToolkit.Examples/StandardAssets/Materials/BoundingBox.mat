@@ -1,0 +1,134 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: BoundingBox
+  m_Shader: {fileID: 4800000, guid: afe839541919f004e8b1e8f0c2b2e309, type: 3}
+  m_ShaderKeywords: _BLOB_ENABLE_2__ON _BLOB_ENABLE__ON _ENABLE_FADE_ _ENABLE_FADE__ON
+    _INVERT__ON _RELATIVE_WIDTH_ _SMOOTH_ACTIVE_FACE__ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Blob_Texture_:
+        m_Texture: {fileID: 2800000, guid: 149c3404ac597124fbb089e7b0a9c73f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Use_Global_Left_Index: 0
+    - Use_Global_Right_Index: 0
+    - _Blob_Enable_: 1
+    - _Blob_Enable_2_: 1
+    - _Blob_Fade_: 1
+    - _Blob_Fade_2_: 1
+    - _Blob_Fade_Length_: 0.08
+    - _Blob_Far_Distance_: 0.08
+    - _Blob_Far_Size_: 0.05
+    - _Blob_Inner_Fade_: 1
+    - _Blob_Inner_Fade_2_: 1
+    - _Blob_Intensity_: 0.5
+    - _Blob_Near_Distance_: 0
+    - _Blob_Near_Size_: 0.025
+    - _Blob_Near_Size_2_: 0.025
+    - _Blob_Pulse_: 0
+    - _Blob_Pulse_2_: 0
+    - _BumpScale: 1
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _Edge_Width_: 0.04
+    - _Enable_Fade_: 1
+    - _Enable_Transition_: 0
+    - _Fade_Width_: 1.5
+    - _Far_Distance_: 5
+    - _Far_Width_: 0.05
+    - _Fuzz_: 0.92
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _Hide_XY_Faces_: 0
+    - _Invert_: 1
+    - _Metallic: 0
+    - _Mode: 0
+    - _Near_Distance_: 1
+    - _Near_Width_: 0.015
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _Proximity_Far_Distance_: 0.16
+    - _Proximity_Far_Radius_: 0.51
+    - _Proximity_Max_Intensity_: 0.45
+    - _Proximity_Near_Radius_: 1.5
+    - _Radius_: 4
+    - _Relative_Width_: 1
+    - _Selected_: 0
+    - _Selected_Distance_: 0.08
+    - _Selected_Fade_Length_: 0.08
+    - _Selection_Fade_: 0
+    - _Selection_Fade_Size_: 0.025
+    - _Selection_Fuzz_: 0.5
+    - _Show_Frame_: 0
+    - _Smooth_Active_Face_: 1
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _Start_Time_: 0
+    - _Transition_: 0.92
+    - _Transition_Period_: 1
+    - _UVSec: 0
+    - _ZWrite: 1
+    m_Colors:
+    - _Active_Face_Dir_: {r: 0, g: 0, b: -1, a: 1}
+    - _Blob_Position_: {r: 0, g: 0, b: 0, a: 1}
+    - _Blob_Position_2_: {r: 0, g: 0, b: 0, a: 1}
+    - _Center_: {r: 0.5, g: 0.3, b: 0.2, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Edge_Color_: {r: 0.5921569, g: 0.5921569, b: 0.5921569, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Flash_Color_: {r: 0.635294, g: 0, b: 1, a: 1}
+    - _Trim_Color_: {r: 0.113725, g: 0, b: 1, a: 1}
