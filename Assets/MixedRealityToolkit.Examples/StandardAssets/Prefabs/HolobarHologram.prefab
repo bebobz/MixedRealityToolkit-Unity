@@ -28,9 +28,9 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 6267590997855566528}
+  - {fileID: 5945069845102100928}
   - {fileID: 1060290681281171865}
   - {fileID: 1435518180524945815}
-  - {fileID: 5945069845102100928}
   - {fileID: 9085100442897443022}
   - {fileID: 7323388430025577690}
   - {fileID: 8132852747771040056}
@@ -51,7 +51,7 @@ GameObject:
   - component: {fileID: 8423673381728787253}
   - component: {fileID: 423917208390049951}
   m_Layer: 0
-  m_Name: TextMeshPro
+  m_Name: Manip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -69,7 +69,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1087732280796208612}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -358,7 +358,7 @@ GameObject:
   - component: {fileID: 5981535518380913725}
   - component: {fileID: 3124222891344801608}
   m_Layer: 0
-  m_Name: TextMeshPro (1)
+  m_Name: X
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -377,7 +377,7 @@ RectTransform:
   m_Children:
   - {fileID: 344373339060023301}
   m_Father: {fileID: 1087732280796208612}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -493,7 +493,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_textAlignment: 4097
+  m_textAlignment: 4098
   m_isAlignmentEnumConverted: 1
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -567,7 +567,7 @@ GameObject:
   - component: {fileID: 3381637866031541646}
   - component: {fileID: 4703195701494738359}
   m_Layer: 0
-  m_Name: TextMeshPro (2)
+  m_Name: Next
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -586,7 +586,7 @@ RectTransform:
   m_Children:
   - {fileID: 4345094817946170332}
   m_Father: {fileID: 1087732280796208612}
-  m_RootOrder: 3
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -610,7 +610,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 21593863904795458, guid: d6068715deaf43c48b6b6ade6856ec5b, type: 2}
+  - {fileID: 21627306598351328, guid: 912c13886533ec847813bc44ed373813, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -668,8 +668,8 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: "\uE76C"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: d6068715deaf43c48b6b6ade6856ec5b, type: 2}
-  m_sharedMaterial: {fileID: 21593863904795458, guid: d6068715deaf43c48b6b6ade6856ec5b,
+  m_fontAsset: {fileID: 11400000, guid: 912c13886533ec847813bc44ed373813, type: 2}
+  m_sharedMaterial: {fileID: 21627306598351328, guid: 912c13886533ec847813bc44ed373813,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
